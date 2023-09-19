@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+.calculator input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.buttons button {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #eee;
+}
